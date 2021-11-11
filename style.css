@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  flex: auto;
+}
+
+li:hover {
+  background-color: blue;
+  color: white;
+}
+
+@media all and (max-width: 500px) {
+  ul {
+    flex-direction: column;
+  }
+}
